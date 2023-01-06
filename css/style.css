@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary {
+    height: 56px;
+    padding: 16px 20px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #ffff;
+    border: 0;
+}
+
+section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.primary-des {
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Header Section Styles */
+
+.banner {
+    background-image: url('../images/donation2.jpg'), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 300px;
+    text-align: center;
+}
+
+.top-heading {
+    font-size: 65px;
+    text-align: center;
+    color: #ffff;
+}
+
+.header-description {
+    font-size: 18px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Donate Today Section Css */
+
+.donate-today {
+    text-align: center;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+.donation-opt {
+    display: flex;
+    gap: 22px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.donation-item {
+    text-align: center;
+    padding: 43px 24px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #707070;
+}
+
+.donation-item:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    cursor: pointer;
+}
+
+.donate-today input[type=number] {
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 50px;
+}
+
+/* Donate Plan styles */
+
+.donate-plan {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.plan-item-1 {
+    padding: 60px 23px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.plan-item-2 {
+    padding: 60px 23px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.plan-item-3 {
+    padding: 60px 23px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.plan-icon {
+    margin-bottom: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+.plan-des {
+    color: #707070;
+}
