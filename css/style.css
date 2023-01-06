@@ -144,3 +144,39 @@ section {
 .plan-des {
     color: #707070;
 }
+
+/* Contribuition section styles */
+
+.contribution {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 94px;
+    align-items: center;
+}
+
+.contribution-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.contribution-des {
+    color: #707070;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contribution-r img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.contribution-l img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
